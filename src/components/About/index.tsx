@@ -2,17 +2,23 @@ import React from "react";
 import { Container, CenterItems, Row } from "./styles";
 import Wrapper from "./Wrapper";
 import TypeWriter from "../TypeWriter";
+import { useInView } from "react-intersection-observer";
 
 const About: React.FC = () => {
+	const { ref: myRef, inView: isVisible } = useInView({ triggerOnce: true });
+
 	return (
 		<Container>
 			<CenterItems>
-				<h2 className="text">
-					<TypeWriter
-						text="Tecnologias em que tenho certo conhecimento:"
-						delay={45}
-					/>
+				<h2 className="text" ref={myRef}>
+					{isVisible && (
+						<TypeWriter
+							text="Tecnologias em que tenho certo conhecimento:"
+							delay={55}
+						/>
+					)}
 				</h2>
+
 				<Row>
 					<Wrapper
 						img="/img/C-icon.png"
