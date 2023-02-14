@@ -5,8 +5,14 @@ import { useInView } from "react-intersection-observer";
 
 const Wrapper: React.FC<WrapperI> = (props) => {
 	const { ref: myRef, inView: isVisible } = useInView();
+	const delay = props.delay;
+	console.log("delay", delay);
 	return (
-		<WrapperS ref={myRef} className={isVisible ? "show-up" : "hidden"}>
+		<WrapperS
+			ref={myRef}
+			className={isVisible ? "show-up" : "hidden"}
+			transitionDelay={props?.delay}
+		>
 			<Row>
 				<img
 					src={process.env.PUBLIC_URL + props.img}

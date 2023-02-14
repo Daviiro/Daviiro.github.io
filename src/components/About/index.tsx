@@ -24,11 +24,13 @@ const About: React.FC = () => {
 						img="/img/C-icon.png"
 						title=" Linguagem C"
 						text="É a linguagem com qual aprendi a programar."
+						delay={100}
 					></Wrapper>
 					<Wrapper
 						img="/img/react-icon.png"
 						title="ReactJs"
 						text="É a biblioteca com que mais tenho familiaridade até o momento no que diz respeito a desenvolvimento web."
+						delay={200}
 					></Wrapper>
 				</Row>
 				<Row>
@@ -36,11 +38,13 @@ const About: React.FC = () => {
 						img="/img/js-icon.png"
 						title="JavaScript"
 						text="Linguagem com que aprendi a fazer um site, ela proporciona um grande leque de possibilidades devidos aos seus diversos tipos de bibliotecas e frameworks."
+						delay={100}
 					></Wrapper>
 					<Wrapper
 						img="/img/node-icon.png"
 						title="Node.js"
 						text="Node.js me proporcionou o primeiro contato com o back-end. Estou longe de o dominar no momento, mas tenho o objetivo de melhorar."
+						delay={200}
 					></Wrapper>
 				</Row>
 				<Row>
@@ -48,11 +52,13 @@ const About: React.FC = () => {
 						img="/img/ts-icon.png"
 						title="TypeScript"
 						text="É a linguagem com qual estou me habituando cada vez mais. Este site, por exemplo, foi escrito usando React e TypeScript."
+						delay={100}
 					></Wrapper>
 					<Wrapper
 						img="/img/git-icon.png"
 						title="Git"
 						text="É o sistema de controle de versão que utilizo em todo projeto que faço."
+						delay={200}
 					></Wrapper>
 				</Row>
 			</CenterItems>

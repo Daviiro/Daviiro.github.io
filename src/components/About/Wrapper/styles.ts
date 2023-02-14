@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const WrapperS = styled.div`
+interface WrapperProps {
+	transitionDelay?: number;
+}
+
+export const WrapperS = styled.div<WrapperProps>`
 	height: auto;
 	width: auto;
 	min-height: 12rem;
@@ -14,8 +18,13 @@ export const WrapperS = styled.div`
 	hr {
 		border-color: ${(props) => props.theme.colors.text};
 	}
+	transition: all 1s;
+	${({ transitionDelay }) =>
+		transitionDelay &&
+		`
+    transition-delay: ${transitionDelay}ms;
+	`};
 
-	transition: all 2s;
 	&.hidden {
 		opacity: 0;
 		transform: translateX(-100%);
