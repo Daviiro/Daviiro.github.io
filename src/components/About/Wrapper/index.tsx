@@ -1,10 +1,12 @@
 import React from "react";
 import { WrapperS, Row } from "./styles";
 import { WrapperI } from "./types";
+import { useInView } from "react-intersection-observer";
 
 const Wrapper: React.FC<WrapperI> = (props) => {
+	const { ref: myRef, inView: isVisible } = useInView();
 	return (
-		<WrapperS>
+		<WrapperS ref={myRef} className={isVisible ? "show-up" : "hidden"}>
 			<Row>
 				<img
 					src={process.env.PUBLIC_URL + props.img}

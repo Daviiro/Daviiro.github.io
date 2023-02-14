@@ -14,6 +14,17 @@ export const WrapperS = styled.div`
 	hr {
 		border-color: ${(props) => props.theme.colors.text};
 	}
+
+	transition: all 2s;
+	&.hidden {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+
+	&.show-up {
+		opacity: 1;
+		transform: translateX(+0%);
+	}
 `;
 
 export const Row = styled.div`
