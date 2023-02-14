@@ -14,11 +14,24 @@ export const ImgContainer = styled.div`
 		#070606 54%
 	);
 	.Img {
-		height: 70%;
-		max-height: 600px;
-		min-height: 250px;
-		display: block;
-		margin: 0 auto;
+	}
+`;
+
+export const Image = styled.img`
+	height: 70%;
+	max-height: 600px;
+	min-height: 250px;
+	display: block;
+	margin: 0 auto;
+	transition: all 2.5s;
+	&.hidden {
+		opacity: 0;
+		transform: translateY(5%);
+	}
+
+	&.show-up {
+		opacity: 1;
+		transform: translateY(+0%);
 	}
 `;
 
