@@ -23,7 +23,7 @@ const Content: React.FC = () => {
 					{!delay && (
 						<TypeWriter
 							text={
-								"Sou David Jr. Rodrigues, um estudante de Ciências da Computação e também um desenvolvedor."
+								"Sou David Jr. Rodrigues, um graduado em Ciência da Computação pela UNESP - Câmpus de Presidente Prudente -  e também um desenvolvedor WEB."
 							}
 							delay={45}
 						/>
