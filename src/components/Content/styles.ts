@@ -11,7 +11,7 @@ export const ImgContainer = styled.div`
 	height: 70%;
 	background-image: linear-gradient(
 		${(props) => props.theme.colors.background},
-		#070606 54%
+		#070606 50%
 	);
 	.Img {
 	}
