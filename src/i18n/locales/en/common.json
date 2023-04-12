@@ -1,0 +1,19 @@
+{
+	"translation": {
+		"hello": "Hello!",
+		"aboutMyself": "I'm David Jr. Rodrigues, a graduate in Computer Science at São Paulo State University (UNESP) and a web developer.",
+		"tech": "Technologies that I'm used to:",
+		"c": "C language",
+		"cDesc": "It is the first programming language that I learned, being the start of my programming carrer.",
+		"js": "JavaScript",
+		"jsDesc": "It's the language wich I used to learn to make my first website. This language provided me with a wide range of possibilities due to its various types of libraries and frameworks.",
+		"ts": "TypeScript",
+		"tsDesc": "It's the language I'm using more lately. This site, for example, was written using React and TypeScript.",
+		"react": "ReactJs",
+		"reactDesc": "It's the library I'm most familiar with so far when it comes to web development.",
+		"node": "Node.js",
+		"nodeDesc": "Node.js gave me my first contact with the backend. I'm far from mastering it at the moment, but I'm improving step by step.",
+		"git": "Git",
+		"gitDesc": "It's the version control system I use on every project I do."
+	}
+}
