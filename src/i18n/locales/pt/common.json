@@ -1,0 +1,19 @@
+{
+	"translation": {
+		"hello": "Olá!",
+		"aboutMyself": "Sou David Jr. Rodrigues, um graduado em Ciência da Computação pela UNESP - Câmpus de Presidente Prudente -  e também um desenvolvedor WEB.",
+		"tech": "Tecnologias em que tenho certo conhecimento:",
+		"c": "Linguagem C",
+		"cDesc": "É a linguagem com qual aprendi a programar.",
+		"js": "JavaScript",
+		"jsDesc": "Linguagem com que aprendi a fazer um site, ela proporciona um grande leque de possibilidades devidos aos seus diversos tipos de bibliotecas e frameworks.",
+		"ts": "TypeScript",
+		"tsDesc": "É a linguagem com qual estou me habituando cada vez mais. Este site, por exemplo, foi escrito usando React e TypeScript.",
+		"react": "ReactJs",
+		"reactDesc": "É a biblioteca com que mais tenho familiaridade até o momento no que diz respeito a desenvolvimento web.",
+		"node": "Node.js",
+		"nodeDesc": "Node.js me proporcionou o primeiro contato com o back-end. Estou longe de o dominar no momento, mas tenho o objetivo de melhorar.",
+		"git": "Git",
+		"gitDesc": "É o sistema de controle de versão que utilizo em todo projeto que faço."
+	}
+}

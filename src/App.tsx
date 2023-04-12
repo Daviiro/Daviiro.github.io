@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import GlobalStyle from "./styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import dark from "./styles/themes/dark";
+import "./i18n";
 
 class App extends Component {
 	render() {

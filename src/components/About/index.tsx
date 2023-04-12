@@ -3,9 +3,12 @@ import { Container, CenterItems, Row } from "./styles";
 import Wrapper from "./Wrapper";
 import TypeWriter from "../TypeWriter";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 const About: React.FC = () => {
 	const { ref: myRef, inView: isVisible } = useInView({ triggerOnce: true });
+	const { t, i18n } = useTranslation();
+	const selectedLanguage = i18n.language;
 
 	return (
 		<Container>
@@ -13,7 +16,8 @@ const About: React.FC = () => {
 				<h2 className="text" ref={myRef}>
 					{isVisible && (
 						<TypeWriter
-							text="Tecnologias em que tenho certo conhecimento:"
+							key={selectedLanguage}
+							text={t("tech")}
 							delay={55}
 						/>
 					)}
@@ -22,42 +26,42 @@ const About: React.FC = () => {
 				<Row>
 					<Wrapper
 						img="/img/C-icon.png"
-						title=" Linguagem C"
-						text="É a linguagem com qual aprendi a programar."
+						title={t("c")}
+						text={t("cDesc")}
 						delay={100}
 					></Wrapper>
 					<Wrapper
 						img="/img/react-icon.png"
-						title="ReactJs"
-						text="É a biblioteca com que mais tenho familiaridade até o momento no que diz respeito a desenvolvimento web."
+						title={t("react")}
+						text={t("reactDesc")}
 						delay={200}
 					></Wrapper>
 				</Row>
 				<Row>
 					<Wrapper
 						img="/img/js-icon.png"
-						title="JavaScript"
-						text="Linguagem com que aprendi a fazer um site, ela proporciona um grande leque de possibilidades devidos aos seus diversos tipos de bibliotecas e frameworks."
+						title={t("js")}
+						text={t("jsDesc")}
 						delay={150}
 					></Wrapper>
 					<Wrapper
 						img="/img/node-icon.png"
-						title="Node.js"
-						text="Node.js me proporcionou o primeiro contato com o back-end. Estou longe de o dominar no momento, mas tenho o objetivo de melhorar."
+						title={t("node")}
+						text={t("nodeDesc")}
 						delay={250}
 					></Wrapper>
 				</Row>
 				<Row>
 					<Wrapper
 						img="/img/ts-icon.png"
-						title="TypeScript"
-						text="É a linguagem com qual estou me habituando cada vez mais. Este site, por exemplo, foi escrito usando React e TypeScript."
+						title={t("ts")}
+						text={t("tsDesc")}
 						delay={200}
 					></Wrapper>
 					<Wrapper
 						img="/img/git-icon.png"
-						title="Git"
-						text="É o sistema de controle de versão que utilizo em todo projeto que faço."
+						title={t("git")}
+						text={t("gitDesc")}
 						delay={300}
 					></Wrapper>
 				</Row>
