@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Flag from "../Flag";
 import BrasilFlag from "../../assets/brasil-flag.svg";
 import EUAFlag from "../../assets/eua-flag.svg";
+import { StyledContainer } from "./styles";
 
 const LanguageSelector: React.FC = () => {
 	const { i18n } = useTranslation();
@@ -17,7 +18,7 @@ const LanguageSelector: React.FC = () => {
 	}, [selectedLanguage]);
 
 	return (
-		<div>
+		<StyledContainer>
 			<div onClick={() => handleChangeLanguage("pt")}>
 				<Flag
 					image={BrasilFlag}
@@ -25,8 +26,10 @@ const LanguageSelector: React.FC = () => {
 				/>
 			</div>
 
-			<button onClick={() => handleChangeLanguage("en")}>Inglês</button>
-		</div>
+			<div onClick={() => handleChangeLanguage("en")}>
+				<Flag image={EUAFlag} isSelected={selectedLanguage === "en"} />
+			</div>
+		</StyledContainer>
 	);
 };
 

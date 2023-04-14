@@ -1,4 +1,5 @@
 import React from "react";
+import { StyledImage } from "./styles";
 
 const Flag = ({
 	image,
@@ -8,10 +9,10 @@ const Flag = ({
 	image: string;
 	isSelected: boolean;
 }) => (
-	<img
+	<StyledImage
 		alt="flag"
 		src={image}
-		className={isSelected ? "flag selected" : "flag"}
+		className={isSelected ? "selected" : ""}
 		{...props}
 	/>
 );
