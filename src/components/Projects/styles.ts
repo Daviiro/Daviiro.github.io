@@ -11,3 +11,9 @@ export const Container = styled.div`
 		text-align: center;
 	}
 `;
+
+export const CenterItems = styled.div`
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 2rem;
+`;
