@@ -15,6 +15,7 @@
 		"nodeDesc": "Node.js gave me my first contact with the backend. I'm far from mastering it at the moment, but I'm improving step by step.",
 		"git": "Git",
 		"gitDesc": "It's the version control system I use on every project I do.",
-		"projects": "My projects:"
+		"projects": "My projects:",
+		"mongodbDesc": "MongoDB is a document database used to build highly available and scalable applications."
 	}
 }

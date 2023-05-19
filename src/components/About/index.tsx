@@ -65,6 +65,14 @@ const About: React.FC = () => {
 						delay={300}
 					></Wrapper>
 				</Row>
+				<Row>
+					<Wrapper
+						img="/img/mongodb-icon.png"
+						title={t("mongodb")}
+						text={t("mongodbDesc")}
+						delay={200}
+					></Wrapper>
+				</Row>
 			</CenterItems>
 		</Container>
 	);
