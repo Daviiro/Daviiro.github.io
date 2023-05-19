@@ -5,15 +5,14 @@ interface WrapperProps {
 }
 
 export const WrapperS = styled.div<WrapperProps>`
-	height: auto;
 	width: auto;
-	min-height: 12rem;
+	height: 17rem;
 	min-width: 12rem;
 	max-height: 20rem;
 	max-width: 21rem;
 	border-radius: 15px;
 	margin-top: 1rem;
-	padding: 0.5rem;
+	padding: 1.2rem;
 	background-color: ${(props) => props.theme.colors.primary};
 	hr {
 		border-color: ${(props) => props.theme.colors.text};
@@ -34,6 +33,8 @@ export const WrapperS = styled.div<WrapperProps>`
 		opacity: 1;
 		transform: translateX(+0%);
 	}
+
+	color: "#ffffff";
 `;
 
 export const ImgS = styled.img`

@@ -8,4 +8,5 @@ export interface WrapperI {
 	title: string;
 	text: string;
 	delay?: number;
+	link: string;
 }
