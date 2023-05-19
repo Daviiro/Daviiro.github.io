@@ -63,6 +63,10 @@ const Projects: React.FC = () => {
 								src: "/img/node-icon.png",
 								alt: "nodejs",
 							},
+							{
+								src: "/img/mongodb-icon.png",
+								alt: "mongodb",
+							},
 						]}
 					/>
 				</Row>
