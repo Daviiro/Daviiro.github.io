@@ -17,3 +17,12 @@ export const CenterItems = styled.div`
 	margin: 0 auto;
 	padding: 2rem;
 `;
+
+export const Row = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	transition: all 2s;
+`;
