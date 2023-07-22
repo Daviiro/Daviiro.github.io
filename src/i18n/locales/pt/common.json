@@ -17,6 +17,13 @@
 		"gitDesc": "É o sistema de controle de versão que utilizo em todo projeto que faço.",
 		"projects": "Meus projetos:",
 		"mongodb": "MongoDB",
-		"mongodbDesc": "MongoDB é um banco de dados não relacional usado para criar aplicações escaláveis."
+		"mongodbDesc": "MongoDB é um banco de dados não relacional usado para criar aplicações escaláveis.",
+		"privpol": "Política de Privacidade de Aplicativos",
+		"privpolUserInfo": "Informações fornecidas pelo usuário: As informações fornecidas dentro dos recursos dos aplicativos são armazenadas apenas para funcionamento do aplicativo.",
+		"privpolAutoInfo": "Coleta automática de informações: Informações como estatísticas de instalação e utilização são coletadas para relatórios estratégicos, sem identificação pessoal.",
+		"privpolLocalInfo": "Localização: Este aplicativo não faz coleta de informações referentes a localização.",
+		"privpolPubli": "Coleta de informações para publicidade: Este APP pode recolher informações para melhor poder exibir anúncios ou coisa do gênero, não estando entre essas informações coletadas os dados de cunho sensível.",
+		"privpolConsen": "Esta Política de Privacidade pode ser atualizada de tempos em tempos por qualquer motivo. Toda e qualquer alteração será publicada neste mesmo local. Recomenda-se que você consulte esta Política de Privacidade regularmente para quaisquer alterações, pois a instalação do aplicativo é considerado como aprovação de toda aceitação e as alterações das condições.",
+		"privpolContact": "Contato: Em caso de dúvida, ou qualquer coisa do gênero, entre em contato através do email: david.junior@unesp.br"
 	}
 }

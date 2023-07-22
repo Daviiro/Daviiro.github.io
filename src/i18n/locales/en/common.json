@@ -16,6 +16,13 @@
 		"git": "Git",
 		"gitDesc": "It's the version control system I use on every project I do.",
 		"projects": "My projects:",
-		"mongodbDesc": "MongoDB is a document database used to build highly available and scalable applications."
+		"mongodbDesc": "MongoDB is a document database used to build highly available and scalable applications.",
+		"privpol": "Application Privacy Policy",
+		"privpolUserInfo": "Information provided by the user: The information provided within the application's resources is stored only for the application to function.",
+		"privpolAutoInfo": "Automatic information collection: Information such as installation and usage statistics is collected for strategic reporting without personally identifying.",
+		"privpolLocalInfo": "Location: This app does not collect location information.",
+		"privpolPubli": "Collection of information for advertising: This APP may collect information to better be able to display ads or anything of the like, sensitive data not being among the collected information.",
+		"privpolConsen": "This Privacy Policy may be updated from time to time for any reason. Any and all changes will be published in this same place. It is recommended that you consult this Privacy Policy regularly for any changes, as installation of the application is considered approval of all acceptance and changes to the conditions.",
+		"privpolContact": "Contact: In case of doubt, or anything of the kind, please contact us via email: david.junior@unesp.br"
 	}
 }
